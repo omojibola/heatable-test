@@ -19,7 +19,7 @@ const CardView = dynamic(
 const inter = Inter({ subsets: ['latin'] });
 
 export default function Home({ data }) {
-  const [selectedView, setSelectedView] = useState('card');
+  const [selectedView, setSelectedView] = useState('list');
   const [selectedCharacter, setSelectedCharacter] = useState({});
   const [stats, setStats] = useState([]);
   const [loading, setLoading] = useState(false);

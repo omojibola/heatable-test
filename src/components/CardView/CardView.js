@@ -10,7 +10,7 @@ const images = [
   '/poki-5.jpeg',
 ];
 
-function CardView({ characters, displayStats }) {
+function CardView({ characters }) {
   const [lastDirection, setLastDirection] = useState();
   const [randomImg, setRandomImg] = useState(0);
 
@@ -55,7 +55,7 @@ function CardView({ characters, displayStats }) {
         ))}
       </div>
       {/* {lastDirection ? (
-        <h2 className='infoText'>You swiped {lastDirection}</h2>
+        <p className='infoText'>You swiped {lastDirection}</p>
       ) : (
         <h2 className='infoText' />
       )} */}
